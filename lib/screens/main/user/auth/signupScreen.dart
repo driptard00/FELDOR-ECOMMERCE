@@ -304,7 +304,7 @@ class SignUpScreen extends StatelessWidget {
                                       ),
                                     ),
                                   ),
-                                  Expanded(
+                                  const Expanded(
                                     child: Divider(
                                       color: Colors.black,
                                       thickness: 0.3,
@@ -340,7 +340,7 @@ class SignUpScreen extends StatelessWidget {
                                 ),
                                 InkWell(
                                   onTap: (){
-                                    Get.toNamed(signupScreen);
+                                    Get.toNamed(loginScreen);
                                   },
                                   child: const Text(
                                     "Sign In",
